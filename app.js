@@ -33,12 +33,12 @@ function agregarAmigo() {
     }
 
     if (!isNaN(agregoAmigo)) { // Verifica si el valor es un número
-        alert("No se permiten números, solo nombres.");
+        alert("No se permiten números, solo nombres!.");
         return;
     }
 
     if (/[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s]/.test(agregoAmigo)) { // Verifica caracteres no permitidos
-        alert("Por favor, introduce solo letras.");
+        alert("Por favor, introduce solo letras!.");
         return;
     }
 
@@ -50,7 +50,7 @@ function agregarAmigo() {
     // Mostrar la lista en el DOM
     const listaAmigos = document.getElementById('listaAmigos');
     listaAmigos.innerHTML = ""; // Limpiar la lista antes de agregar los elementos nuevos
-    
+
     // Iterar sobre el arreglo de amigos
     for (let i = 0; i < amigos.length; i++) {
         const li = document.createElement('li');
