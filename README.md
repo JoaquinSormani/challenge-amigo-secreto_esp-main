@@ -44,3 +44,5 @@ Contiene la lógica de JavaScript que permite agregar nombres, validarlos, gener
 
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, puedes hacer un fork del repositorio, realizar tus cambios y crear un Pull Request.
+
+## Video grafico y explicativo
