@@ -49,10 +49,17 @@ function agregarAmigo() {
 
     // Mostrar la lista en el DOM
     const listaAmigos = document.getElementById('listaAmigos');
-    listaAmigos.innerHTML = amigos.map(amigo => `<li>${amigo}</li>`).join("");
-
+    listaAmigos.innerHTML = ""; // Limpiar la lista antes de agregar los elementos nuevos
+    
+    // Iterar sobre el arreglo de amigos
+    for (let i = 0; i < amigos.length; i++) {
+        const li = document.createElement('li');
+        li.textContent = amigos[i];
+        listaAmigos.appendChild(li);
+        }
     console.log(`${agregoAmigo} ha sido agregado. Lista actual:`, amigos);
 }
+
 
 function sortearAmigo(){
     const resultado = document.getElementById(`resultado`);
