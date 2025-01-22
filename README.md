@@ -46,3 +46,7 @@ Contiene la lógica de JavaScript que permite agregar nombres, validarlos, gener
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, puedes hacer un fork del repositorio, realizar tus cambios y crear un Pull Request.
 
 ## Video grafico y explicativo
+<video width="320" height="240" controls>
+  <source src="Explicacion.mp4" type="video/mp4">
+  Tu navegador no soporta la etiqueta de video.
+</video>
